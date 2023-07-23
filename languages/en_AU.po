@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-22 23:15+0000\n"
+"PO-Revision-Date: 2023-07-23 12:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (Australia)\n"
+"Language: en_AU\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: cameronjonesweb-i18n"
+
+#. Author of the theme
+msgid "Cameron Jones"
+msgstr "Cameron Jones"
+
+#: index.php:51
+#, php-format
+msgid "Copyright %1$s"
+msgstr "Copyright %1$s"
+
+#. %1$s: current username
+#: index.php:14
+#, php-format
+msgid "Hello %1$s"
+msgstr "G'day %1$s"
+
+#. Name of the theme
+msgid "i18n"
+msgstr "i18n"

@@ -8,7 +8,12 @@
 		<header>
 			<div class="hello">
 				<div class="container">
-					<p>Hello <?php echo esc_html( wp_get_current_user()->display_name ); ?></p>
+					<p>
+						<?php
+						/* translators: %1$s: current username */
+						echo esc_html( sprintf( __( 'Hello %1$s', 'cameronjonesweb-i18n' ), wp_get_current_user()->display_name ) );
+						?>
+					</p>
 					<p class="text-right"><?php cameronjonesweb_render_language_picker(); ?></p>
 				</div>
 			</div>
@@ -42,7 +47,9 @@
 		</main>
 		<footer>
 			<div class="container">
-				<p>Copyright <?php echo esc_html( wp_date( 'Y' ) ); ?></p>
+				<p>
+					<?php echo esc_html( sprintf( __( 'Copyright %1$s', 'cameronjonesweb-i18n' ), wp_date( 'Y' ) ) ); ?>
+				</p>
 			</div>
 		</footer>
 		<?php wp_footer(); ?>

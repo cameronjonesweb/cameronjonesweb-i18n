@@ -53,3 +53,10 @@ function cameronjonesweb_render_language_picker() {
 		}
 	}
 }
+
+add_action(
+	'init',
+	function() {
+		load_theme_textdomain( 'cameronjonesweb-i18n', trailingslashit( get_template_directory() ) . 'languages/' );
+	}
+);
